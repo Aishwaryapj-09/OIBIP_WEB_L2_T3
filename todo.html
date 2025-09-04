@@ -1,0 +1,32 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <title>to do app</title>
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js">
+        
+    </script>
+</head>
+<body>
+    <div class="d">
+        <div>
+            <p id="t1">Enter your tasks</p>
+            <form onsubmit="add(); return false;">
+                <input class="h1" type="text" id="task"><br>
+                <button type="submit" class="btn">Add Task</button>
+            </form>
+        </div>
+        <div>
+            <div id="tasks">YOUR TASKS :</div>
+        </div>
+        <div>
+            <h3>Completed Tasks:</h3>
+            <ul id="completedList"></ul>
+        </div>
+        <div>
+            <h3>Pending Tasks:</h3>
+            <ul id="pendingList"></ul>
+        </div>
+    </div>
+</body>
+</html>

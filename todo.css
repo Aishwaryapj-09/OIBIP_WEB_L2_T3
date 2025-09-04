@@ -1,0 +1,49 @@
+ body {
+           
+            background: radial-gradient(circle, #c471ed, #f64f59);
+
+            
+
+        }
+        h3, #t1, #tasks {
+            color: chartreuse;
+            font-size: 28px;
+            margin: 0;
+            font-weight: bold;
+        }
+        li, p, button, input {
+            font-size: 18px;
+            color: black;
+        }
+        .h1 {
+            border: 2px solid rgb(200, 147, 147);
+            height: 30px;
+            width: 200px;
+            background-color: rgb(233, 157, 157);
+        }
+        .h1:hover {
+            background-color: lightgreen;
+        }
+        .btn {
+            height: 35px;
+            width: 100px;
+            margin-left: 80px;
+        }
+        .d {
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            align-items: flex-start;
+            margin: 30px;
+        }
+        .d > div {
+            padding: 10px;
+        }
+        #tasks {
+            width: fit-content;
+            height: fit-content;
+        }
+        #completedList li, #pendingList li {
+            font-size: 18px;
+            color: chartreuse;
+        }
